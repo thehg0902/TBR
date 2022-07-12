@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BattleHandler : MonoBehaviour
+public  class GameInfoHandler: MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static GameObject[] currentChar;
+
     void Start()
     {
-        
+        //currentChar[1] = GameObject.FindGameObjectWithTag("P1");
     }
 
     // Update is called once per frame
